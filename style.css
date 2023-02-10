@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: aqua;
+    display: flex;
+    /* border-radius: 20px; */
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin: 10px 20px;
+    list-style: none;
+    font-size: 18px;
+    border: 1px solid rgb(0, 7, 206);
+    padding: 5px;
+    background-color: rgb(255, 255, 98);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    transform: scale(1.02);
+    background-color: aliceblue;
+    color: blue;
+    border: aliceblue;
+}
+
+#title-name{
+    margin: 10px 40px;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+#mid{
+    width: 70%;
+}
+
+.container{
+    border: 2px solid aqua;
+    background-color: aqua;
+}
+
+.box{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 92vh;
+    background-color: rgb(229, 229, 226);
+}
+
+.box-1  {
+    position: relative;
+    width: 40%;
+    height: 80vh;
+    /* border: 2px solid red; */
+    margin: 2px;
+    background: url('blog-img1.jpg');
+    background-blend-mode:darken;
+    background-size:100% 100%;
+    border-radius: 20px;
+}
+
+.box-2  {
+    height: fit-content;
+    width: 60%;
+    margin: 2px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-1 h3{
+    margin: 10px;
+}
+
+
+.blog-box{
+    display: flex;
+    border: 2px solid grey;
+    margin: 10px;
+    width: 45%;
+    padding: 10px;
+    height: 150px;
+    background-color: rgb(243, 243, 221);
+    border-radius: 10px;
+}
+
+.img-box img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+h2{
+    margin-top: 15px;
+}
+
+.main-content{
+    color: rgb(139, 105, 171);
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+    opacity: 0.7;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.main-content p{
+    margin-top: 10px;
+    color: blue;
+    font-size: 17px;
+}
+
+.box-inside{
+    display: flex;
+}
+
+.top-stories{
+    margin: 10px 0;
+    text-align: center;
+    text-shadow: 2px 3px rgb(199, 185, 185);
+}
